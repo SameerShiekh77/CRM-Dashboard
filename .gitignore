@@ -8,3 +8,19 @@ db.sqlite3
 delete.py
 *.xlsx
 logs/
+venv
+
+# Editors/ IDEs Folders
+.vscode
+
+# Python cached modules/ data
+
+*/__pycache__
+*.pyc
+# Virtual Environment Folders
+venv/
+# Redis Cached Data
+dump.rdb
+# Files inside media
+media/*
+!media
